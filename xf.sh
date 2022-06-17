@@ -2,9 +2,9 @@
 ##
 
 # Set ARG
-UUID=5a3f6e6d-0648-4b39-b27d-36d8299e719
 ARCH="64"
 DOWNLOAD_PATH="/tmp/v2ray"
+
 
 mkdir -p ${DOWNLOAD_PATH}
 cd ${DOWNLOAD_PATH} || exit
@@ -61,7 +61,7 @@ cat <<EOF >/etc/v2ray/config.json
 			"settings": {
 				"clients": [
 					{
-						"id": "$UUID"
+						"id": "2a990533-0bda-417a-975e-8da96acd64e9"
 					}
 				],
 			"decryption": "none"
